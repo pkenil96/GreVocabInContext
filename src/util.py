@@ -9,6 +9,7 @@ def removeDuplicates(items):
             unique_list.append(item)
     return unique_list
 
+
 def createURL(parentURL, searchKeyword, order, sortBy):
     '''
     :param parentURL:
@@ -17,6 +18,6 @@ def createURL(parentURL, searchKeyword, order, sortBy):
     :param sortBy:
     :return:
     '''
-    url=''
+    url = ''
     url = parentURL + '?q=' + searchKeyword + '&order=' + order + '&sort=' + sortBy
     return url
